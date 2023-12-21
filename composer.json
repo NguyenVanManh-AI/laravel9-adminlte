@@ -5,15 +5,24 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
-        "php": "^8.0",
+        "php": "^8.0.2",
+        "brian2694/laravel-toastr": "^5.57",
+        "darkaonline/l5-swagger": "^8.5",
         "fruitcake/laravel-cors": "^2.0.5",
-        "guzzlehttp/guzzle": "^7.2",
+        "guzzlehttp/guzzle": "^7.8",
         "laravel/framework": "^9.0",
-        "laravel/sanctum": "^2.14",
-        "laravel/tinker": "^2.7"
+        "laravel/sanctum": "^3.2",
+        "laravel/tinker": "^2.7",
+        "socialiteproviders/github": "4.1",
+        "socialiteproviders/google": "4.1",
+        "socialiteproviders/twitter": "4.1",
+        "tomfordrumm/jwt-auth": "dev-develop"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.8",
+        "brainmaestro/composer-git-hooks": "*",
         "fakerphp/faker": "^1.9.1",
+        "laravel/pint": "^1.11",
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^6.1",
@@ -45,7 +54,9 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
-        ]
+        ],
+        "analyze":  "vendor/bin/pint --test",
+        "fix-format": "vendor/bin/pint"
     },
     "extra": {
         "laravel": {
