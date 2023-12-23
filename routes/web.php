@@ -13,9 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'home.pages.home');
+Route::view('/product', 'home.pages.product');
 
 Route::prefix('dashboard')->group(function () {
     // Route::middleware(['auth:admin_api,user_api', 'role:admin,superadmin,manager,doctor,hospital'])->group(function () {
