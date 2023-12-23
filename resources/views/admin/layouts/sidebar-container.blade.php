@@ -86,49 +86,49 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav.html" data-nav="Top Navigation" class="nav-link">
+                            <a href="pages/layout/top-nav" data-nav="Top Navigation" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Top Navigation</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/top-nav-sidebar.html" data-nav="Top Navigation + Sidebar" class="nav-link">
+                            <a href="pages/layout/top-nav-sidebar" data-nav="Top Navigation + Sidebar" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Top Navigation + Sidebar</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/boxed.html" data-nav="Boxed" class="nav-link">
+                            <a href="pages/layout/boxed" data-nav="Boxed" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Boxed</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/fixed-sidebar.html" data-nav="Fixed Sidebar" class="nav-link">
+                            <a href="pages/layout/fixed-sidebar" data-nav="Fixed Sidebar" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Fixed Sidebar</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/fixed-sidebar-custom.html" data-nav="" class="nav-link">
+                            <a href="pages/layout/fixed-sidebar-custom" data-nav="" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Fixed Sidebar <small>+ Custom Area</small></p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/fixed-topnav.html" data-nav="" class="nav-link">
+                            <a href="pages/layout/fixed-topnav" data-nav="" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Fixed Navbar</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/fixed-footer.html" data-nav="" class="nav-link">
+                            <a href="pages/layout/fixed-footer" data-nav="" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Fixed Footer</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/layout/collapsed-sidebar.html" data-nav="" class="nav-link">
+                            <a href="pages/layout/collapsed-sidebar" data-nav="" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Collapsed Sidebar</p>
                             </a>
@@ -239,25 +239,25 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/forms/general.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/forms/general" data-nav="forms/general" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>General Elements</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/forms/advanced.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/forms/advanced" data-nav="forms/advanced" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Advanced Elements</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/forms/editors.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/forms/editors" data-nav="forms/editors" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Editors</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/forms/validation.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/forms/validation" data-nav="forms/validation" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Validation</p>
                             </a>
@@ -274,19 +274,19 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/tables/simple.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/tables/simple" data-nav="tables/simple" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Simple Tables</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/tables/data.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/tables/data" data-nav="tables/data" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>DataTables</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/tables/jsgrid.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/tables/jsgrid" data-nav="tables/jsgrid" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>jsGrid</p>
                             </a>
@@ -329,19 +329,19 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/mailbox/mailbox.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/mailbox/mailbox" data-nav="mailbox/mailbox" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Inbox</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/mailbox/compose.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/mailbox/compose" data-nav="mailbox/compose" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Compose</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/mailbox/read-mail.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/mailbox/read-mail" data-nav="mailbox/read-mail" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Read</p>
                             </a>
@@ -358,61 +358,61 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/examples/invoice.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/examples/invoice" data-nav="examples/invoice" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Invoice</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/profile.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/examples/profile" data-nav="examples/profile" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Profile</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/e-commerce.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/examples/e-commerce" data-nav="examples/e-commerce" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>E-commerce</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/projects.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/examples/projects" data-nav="examples/projects" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Projects</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/project-add.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/examples/project-add" data-nav="examples/project-add" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Project Add</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/project-edit.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/examples/project-edit" data-nav="examples/project-edit" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Project Edit</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/project-detail.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/examples/project-detail" data-nav="examples/project-detail" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Project Detail</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/contacts.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/examples/contacts" data-nav="examples/contacts" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Contacts</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/faq.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/examples/faq" data-nav="examples/faq" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>FAQ</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/contact-us.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/examples/contact-us" data-nav="examples/contact-us" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Contact us</p>
                             </a>
@@ -438,25 +438,25 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="pages/examples/login.html" data-nav="" class="nav-link">
+                                    <a href="/dashboard/examples/login" data-nav="examples/login" class="nav-link">
                                         <i class="far fa-circle nav-icon nav-circle"></i>
                                         <p>Login v1</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/examples/register.html" data-nav="" class="nav-link">
+                                    <a href="/dashboard/examples/register" data-nav="examples/register" class="nav-link">
                                         <i class="far fa-circle nav-icon nav-circle"></i>
                                         <p>Register v1</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/examples/forgot-password.html" data-nav="" class="nav-link">
+                                    <a href="/dashboard/examples/forgot-password" data-nav="examples/forgot-password" class="nav-link">
                                         <i class="far fa-circle nav-icon nav-circle"></i>
                                         <p>Forgot Password v1</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/examples/recover-password.html" data-nav="" class="nav-link">
+                                    <a href="/dashboard/examples/recover-password" data-nav="examples/recover-password" class="nav-link">
                                         <i class="far fa-circle nav-icon nav-circle"></i>
                                         <p>Recover Password v1</p>
                                     </a>
@@ -473,25 +473,25 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="pages/examples/login-v2.html" data-nav="" class="nav-link">
+                                    <a href="/dashboard/examples/login-v2" data-nav="examples/login-v2" class="nav-link">
                                         <i class="far fa-circle nav-icon nav-circle"></i>
                                         <p>Login v2</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/examples/register-v2.html" data-nav="" class="nav-link">
+                                    <a href="/dashboard/examples/register-v2" data-nav="examples/register-v2" class="nav-link">
                                         <i class="far fa-circle nav-icon nav-circle"></i>
                                         <p>Register v2</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/examples/forgot-password-v2.html" data-nav="" class="nav-link">
+                                    <a href="/dashboard/examples/forgot-password-v2" data-nav="examples/forgot-password-v2" class="nav-link">
                                         <i class="far fa-circle nav-icon nav-circle"></i>
                                         <p>Forgot Password v2</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/examples/recover-password-v2.html" data-nav=""
+                                    <a href="/dashboard/examples/recover-password-v2" data-nav="examples/recover-password-v2"
                                         class="nav-link">
                                         <i class="far fa-circle nav-icon nav-circle"></i>
                                         <p>Recover Password v2</p>
@@ -500,49 +500,49 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/lockscreen.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/examples/lockscreen" data-nav="examples/lockscreen" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Lockscreen</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/legacy-user-menu.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/examples/legacy-user-menu" data-nav="examples/legacy-user-menu" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Legacy User Menu</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/language-menu.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/examples/language-menu" data-nav="examples/language-menu" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Language Menu</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/404.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/examples/404" data-nav="examples/404" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Error 404</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/500.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/examples/500" data-nav="examples/500" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Error 500</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/pace.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/examples/pace" data-nav="examples/pace" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Pace</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/examples/blank.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/examples/blank" data-nav="examples/blank" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Blank Page</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="starter.html" data-nav="" class="nav-link">
+                            <a href="/starter.html" data-nav="" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Starter Page</p>
                             </a>
@@ -559,13 +559,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/search/simple.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/search/simple" data-nav="search/simple" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Simple Search</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/search/enhanced.html" data-nav="" class="nav-link">
+                            <a href="/dashboard/search/enhanced" data-nav="search/enhanced" class="nav-link">
                                 <i class="far fa-circle nav-icon nav-circle"></i>
                                 <p>Enhanced</p>
                             </a>
@@ -574,7 +574,13 @@
                 </li>
                 <li class="nav-header">MISCELLANEOUS</li>
                 <li class="nav-item">
-                    <a href="iframe.html" data-nav="" class="nav-link">
+                    <a href="/dashboard/iframe" data-nav="iframe" class="nav-link">
+                        <i class="nav-icon fas fa-ellipsis-h"></i>
+                        <p>Tabbed IFrame Plugin</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/iframe.html" data-nav="iframe" class="nav-link">
                         <i class="nav-icon fas fa-ellipsis-h"></i>
                         <p>Tabbed IFrame Plugin</p>
                     </a>

@@ -1,2 +1,3 @@
-<?php 
-    echo "this is test.php";
+<?php
+
+echo 'this is test.php';
