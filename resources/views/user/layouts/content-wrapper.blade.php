@@ -1,4 +1,4 @@
-@extends('home.layouts.dashboard')
+@extends('user.layouts.dashboard')
 @section('content-wrapper')
 <div class="content-wrapper">
   <!-- Content Header (Page header) -->
@@ -22,7 +22,7 @@
 
   <!-- Main content -->
   <div class="content">
-    @yield('home.pages.content')
+    @yield('user.pages.content')
   </div>
   <!-- /.content -->
 </div>

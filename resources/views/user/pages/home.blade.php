@@ -1,7 +1,7 @@
-@extends('home.layouts.content-wrapper')
+@extends('user.layouts.content-wrapper')
 @section('title', 'Home User')
 @section('sub-title', 'Home User')
-@section('home.pages.content')
+@section('user.pages.content')
 <div class="container">
     <div class="row">
       <div class="col-lg-6">

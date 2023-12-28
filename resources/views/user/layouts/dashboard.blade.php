@@ -1,4 +1,4 @@
-@extends('home.layouts.master')
+@extends('user.layouts.master')
 @section('content')
     <div class="wrapper">
 
@@ -9,7 +9,7 @@
         </div>
         
         <!-- Navbar -->
-        @include('home.layouts.navbar')
+        @include('user.layouts.navbar')
         <!-- /.navbar -->
 
         <!-- Content Wrapper. Contains page content -->
@@ -22,7 +22,7 @@
         </aside>
         <!-- /.control-sidebar -->
 
-        @include('home.layouts.main-footer')
+        @include('user.layouts.main-footer')
     </div>
     <!-- ./wrapper -->
 @endsection

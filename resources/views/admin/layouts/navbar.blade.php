@@ -138,4 +138,4 @@
         </li>
     </ul>
 </nav>
-<script src="{{ asset('admin/navbar.js') }}"></script>
+<script src="{{ asset('js/admin/navbar.js') }}"></script>

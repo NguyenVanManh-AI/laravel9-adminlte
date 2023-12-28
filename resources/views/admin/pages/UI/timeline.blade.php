@@ -117,6 +117,6 @@
 
 @push('scripts-page')
     <script src="{{ asset('plugins/fullcalendar/main.js') }}"></script>
-    <script src="{{ asset('admin/pages/calendar.js') }}"></script>
+    <script src="{{ asset('js/admin/pages/calendar.js') }}"></script>
 @endpush
 
