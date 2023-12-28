@@ -37,7 +37,7 @@ return [
         'database' => [
             'driver' => 'database',
             'table' => 'jobs',
-            'queue' => 'default',
+            'queue' => 'send_mail_forgot_password',
             'retry_after' => 90,
             'after_commit' => false,
         ],

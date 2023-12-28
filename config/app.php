@@ -176,6 +176,10 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\RepositoryServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
+        Brian2694\Toastr\ToastrServiceProvider::class,
+        Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
 
     ],
 
@@ -191,7 +195,8 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-        // ...
+        'Debugbar' => Barryvdh\Debugbar\Facades\Debugbar::class,
+        'Toastr' => Brian2694\Toastr\Facades\Toastr::class,
     ])->toArray(),
 
 ];

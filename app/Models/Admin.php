@@ -8,7 +8,7 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 use Tymon\JWTAuth\Contracts\JWTSubject;
 
-class User extends Authenticatable implements JWTSubject
+class Admin extends Authenticatable implements JWTSubject
 {
     use HasApiTokens, HasFactory, Notifiable;
 
@@ -16,15 +16,11 @@ class User extends Authenticatable implements JWTSubject
         'id',
         'email',
         'password',
-        'google_id',
-        'facebook_id',
-        'github_id',
-        'gitlab_id',
         'name',
         'avatar',
         'role',
-        'token_verify_email',
         'email_verified_at',
+        'token_verify_email',
         'remember_token',
     ];
 
