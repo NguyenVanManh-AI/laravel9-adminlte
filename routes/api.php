@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Api\AdminController;
 use App\Http\Controllers\Api\UserController;
+use App\Http\Controllers\CommentController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -49,4 +50,13 @@ Route::prefix('user')->controller(UserController::class)->group(function () {
 
 Route::middleware('check.auth:admin_api,user_api')->group(function () {
     Route::get('/test', [AdminController::class, 'test']);
+});
+
+// Comments
+Route::prefix('comment')->controller(CommentController::class)->group(function () {
+    Route::middleware('check.auth:user_api')->group(function () {
+        Route::post('add', 'addComment');
+        Route::post('update', 'updateComment');
+    });
+    Route::get('article/{id}', 'commentOfArticle');
 });

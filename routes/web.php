@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\CommentController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -53,6 +54,11 @@ Route::name('admin.')->group(function () {
 
 Route::middleware('check.auth:admin,user')->group(function () {
     Route::get('/test', [AdminController::class, 'test']);
+});
+
+// Comment
+Route::prefix('comment')->name('comment.')->controller(CommentController::class)->group(function () {
+    Route::get('article/{id}', 'showCommentOfArticle')->name('article');
 });
 
 // Errors
